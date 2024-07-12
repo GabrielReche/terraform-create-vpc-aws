@@ -1,12 +1,6 @@
 {
-  "commitMessageTopic": "Terraform {{depName}}",
-  "pinDigests": false,
-  "automerge": true,
-  "labels": ["renovate"],
-  "schedule": ["after 10pm every weekday"],
-  "terraform": {
-    "fileMatch": [
-      "\\.tf$"
-    ]
-  }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ]
 }
