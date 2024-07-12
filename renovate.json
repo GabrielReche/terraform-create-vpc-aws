@@ -1,7 +1,9 @@
 {
   "commitMessageTopic": "Terraform {{depName}}",
-  "fileMatch": [
-    "\\.tf$"
-  ],
-  "pinDigests": false
+  "pinDigests": false,
+  "terraform": {
+    "fileMatch": [
+      "\\.tf$"
+    ]
+  }
 }
